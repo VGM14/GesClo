@@ -1,0 +1,26 @@
+# Dati e segreti (mai nel repository)
+gesclo.sqlite
+gesclo.db.json
+gesclo.supplement.json
+.env
+!.env.example
+
+# Dipendenze e build
+node_modules/
+dist/
+dist-electron/
+staging/
+output/
+bin/
+obj/
+build/
+.gradle/
+*.log
+
+# Binari, installer generati, backup
+*.exe
+*.msi
+*.apk
+*.zip
+*.bak
+installers/
