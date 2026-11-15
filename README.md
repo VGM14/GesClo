@@ -11,7 +11,8 @@ GesClo is a self-hosted business management tool for small shops and warehouses.
 - **Customers** – customer records linked to sales
 - **Stock movements** – inbound/outbound history with user tracking
 - **Reports and dashboard** – daily sales, revenue and stock overview
-- **Barcode and NFC scanning** – scan products by barcode or NFC tag, contactless card payments through the companion Android POS app
+- **Barcode and NFC scanning** – scan products by barcode or NFC tag, contactless card payments through the companion Android POS app; an item can have any number of barcodes, and the register keeps the barcode field focused so you can scan straight away
+- **Italian and English** – one program with a language switch (sidebar and sign-in screen); the Windows installer is bilingual too. New interface text goes through `$t("…")` in `frontend/src/i18n.js` with the English dictionary in `frontend/src/locales/en.js`; server error messages are translated by `server/i18n.js`
 - **AI assistant** (optional) – configurable provider and model, set up from *Admin → AI Setup*
 - **Local authentication** – users and roles (`Super Admin`, `Admin`, `Manager`, `Operatore`, `Kiosk`), passwords hashed with scrypt
 - **Operating modes** – *Standalone*, *Network Server* and *Network Terminal* (one central server, several LAN clients)
